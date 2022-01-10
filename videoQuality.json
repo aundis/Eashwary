@@ -1,0 +1,126 @@
+{
+    "Quality":[
+
+        {
+            "Device":"iPhoneXR_11",
+            "Width": "828",
+            "Height": "1792",
+            "Full": 1,
+            "High": 0.75,
+            "Medium": 0.35,
+            "Low": 0.25
+        },
+        {
+            "Device":"iPhoneX_XS_11Pro",
+            "Width": "1125",
+            "Height": "2436",
+            "Full": 1,
+            "High": 0.73,
+            "Medium": 0.30,
+            "Low": 0.20
+        },
+        {
+            "Device":"iPhoneXSMax_11ProMax",
+            "Width": "1242",
+            "Height": "2688",
+            "Full": 1,
+            "High": 0.67,
+            "Medium": 0.35,
+            "Low": 0.20
+        },
+        {
+            "Device":"iPhone12ProMax",
+            "Width": "1284",
+            "Height": "2778",
+            "Full": 1,
+            "High": 0.75,
+            "Medium": 0.40,
+            "Low": 0.25
+        },
+        {
+            "Device":"iPhone8_6S_7_6",
+            "Width": "750",
+            "Height": "1334",
+            "Full": 1,
+            "High": 0.85,
+            "Medium": 0.50,
+            "Low": 0.30
+        },
+        {
+            "Device":"iPhone12",
+            "Width": "1170",
+            "Height": "2532",
+            "Full": 1,
+            "High": 0.65,
+            "Medium": 0.40,
+            "Low": 0.27
+        },
+        {
+            "Device":"iPhone8plus_7plus_6splus_6plus",
+            "Width": "1242",
+            "Height": "2208",
+            "Full": 1,
+            "High": 0.51,
+            "Medium": 0.38,
+            "Low": 0.25
+        },
+        {
+            "Device":"iPhoneSE_5_5C_5S",
+            "Width": "640",
+            "Height": "1136",
+
+            "Full": 1,
+            "High": 1,
+            "Medium": 0.75,
+            "Low": 0.5
+        },
+        {
+            "Device":"iPadMini3_9.7_Mini2_Pro_Air2_Mini4_Air4_Air3_Mini",
+            "Width": "1536",
+            "Height": "2048",
+            "Full": 1,
+            "High": 0.5,
+            "Medium": 0.37,
+            "Low": 0.25
+        },
+        {
+            "Device":"iPad8thGen",
+            "Width": "1620",
+            "Height": "2160",
+            "Full": 1,
+            "High": 0.48,
+            "Medium": 0.35,
+            "Low":0.22
+        },
+        {
+            "Device":"iPadPro10.5",
+            "Width": "1668",
+            "Height": "2224",
+            "Full": 1,
+            "High": 0.46,
+            "Medium": 0.34,
+            "Low": 0.23
+        },
+        {
+            "Device":"iPadPro_iPadPro3rdGen",
+            "Width": "2048",
+
+            "Height": "2732",
+            "Full": 1,
+            "High": 0.37,
+            "Medium": 0.28,
+            "Low": 0.18
+        },
+        {
+            "Device":"iPadMini_iPad2",
+            "Width": "768",
+            "Height": "1024",
+            "Full": 1,
+            "High": 1,
+            "Medium": 0.75,
+            "Low": 0.5
+        }
+    ]
+
+}
+
