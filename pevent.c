@@ -2279,6 +2279,9 @@ void processEvents(char *msg, char *session)
     json_object *jobj2 = NULL;
     json_object *jobj3 = NULL;
     json_object *jobj4 = NULL;
+    json_object *jobj5 = NULL;
+    json_object *jobj6 = NULL;
+    json_object *jobj7 = NULL;
     json_object *array = NULL;
 
     eventString = (char *) malloc(strlen(msg));
