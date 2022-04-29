@@ -991,14 +991,16 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                                     if ( (cliState->down_x/2) > (xi/2)){
                                     printf("Swipe up.............\n");
                                     //sprintf(toX, "%d", (toXval+50));
-                                    sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,(cliState->down_x/2)+60,cliState->down_y/2);
+                                    //sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,(cliState->down_x/2)+60,cliState->down_y/2);
+                                    sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,cliState->down_x/2,cliState->down_y/2-60);
+
 
                                 }
                                 if ( (cliState->down_x/2) < (xi/2)){
                                     printf("Swipe down.............\n");
                                     //sprintf(toX, "%d", (toXval-50));
-                                    sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,(cliState->down_x/2)-60,cliState->down_y/2);
-
+                                    //sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,(cliState->down_x/2)-60,cliState->down_y/2);
+                                    sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,cliState->down_x/2,cliState->down_y/2+60);
                                 }
                                 }
                                 else
@@ -2779,7 +2781,7 @@ void processEvents(char *msg, char *session)
 
             formJsonObject(jobj3,"action","wait");
             json_object_object_add(jobj3,"options",jobj4);
-            formJsonObject(jobj4,"ms","50");
+            formJsonObject(jobj4,"ms","70");
             json_object_array_add(array,jobj3);
 
             formJsonObject(jobj5,"action","moveTo");
