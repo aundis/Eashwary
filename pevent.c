@@ -976,12 +976,14 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                     {
                         #if defined  OS_14_1
                             printf(" for 14.1 version devices ********\n");
-                            if(UIorientation ==3)
+                            if(UIorientation ==3){
                                 sprintf(fe,"S %d %d %d %d ",cliState->down_y/2,(Width/2)-cliState->down_x/2,yi/2,((Width/2)-xi/2));
+                            }
                             else
                             {
+                                printf("Inside Else Part \n");
                                 // if (abs(x - x1) > abs(y - y1)){
-                                    printf("Output of abs %d \n", (abs((cliState->down_x/2)-(xi/2)) > abs((cliState->down_y/2)-(yi/2))))
+                                printf("Output of abs %d \n", (abs((cliState->down_x/2)-(xi/2)) > abs((cliState->down_y/2)-(yi/2))))
                                 if((abs((cliState->down_x/2)-(xi/2)) > abs((cliState->down_y/2) - (yi/2))))
                                 {
                                     printf("Swipe up/down.............\n");
@@ -1014,6 +1016,7 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                                 sprintf(fe,"S %d %d %d %d ",cliState->down_y/3,((Width/3)-cliState->down_x/3),yi/3,((Width/3)-xi/3));
                             else
                             {
+                                printf("Inside Else Part \n");
                               // if (abs(x - x1) > abs(y - y1)){
                                 if((abs((cliState->down_x/3)-(xi/3)) > abs((cliState->down_y/3) - (yi/3))))
                                 {
@@ -1031,8 +1034,10 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
 
                                 }
                                 }
+                                printf("Outside else \n");
+                                sprintf(fe,"S %d %d %d %d ",cliState->down_x/3,cliState->down_y/3,xi/3,yi/3);
+
                             }
-                                //sprintf(fe,"S %d %d %d %d ",cliState->down_x/3,cliState->down_y/3,xi/3,yi/3);
                         #else
                                 sprintf(fe,"S %d %d %d %d ",cliState->down_x/3,cliState->down_y/3,xi/3,yi/3);
                         #endif
@@ -1046,6 +1051,7 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                                 sprintf(fe,"S %d %d %d %d ",cliState->down_y,(Width-cliState->down_x),y,(Width-xi));
                             else
                             {
+                                printf("Inside Else Part \n");
                                 // if (abs(x - x1) > abs(y - y1)){
                                 if((abs((cliState->down_x)-(xi)) > abs((cliState->down_y) - (yi))))
                                 {
@@ -1064,8 +1070,9 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
 
                                 }
                                 }
+                                printf("Outside else \n");
+                                sprintf(fe,"S %d %d %d %d ",cliState->down_x,cliState->down_y,xi,yi);
                             }
-                                //sprintf(fe,"S %d %d %d %d ",cliState->down_x,cliState->down_y,xi,yi);
                         #else
                                 sprintf(fe,"S %d %d %d %d ",cliState->down_x,cliState->down_y,xi,yi);
                         #endif
