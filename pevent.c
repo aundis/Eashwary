@@ -979,7 +979,25 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                             if(UIorientation ==3)
                                 sprintf(fe,"S %d %d %d %d ",cliState->down_y/2,(Width/2)-cliState->down_x/2,yi/2,((Width/2)-xi/2));
                             else
-                                sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,xi/2,yi/2);
+                            {
+                                // if (abs(x - x1) > abs(y - y1)){
+                                if((abs((cliState->down_x/2)-(xi/2)) > abs((cliState->down_y/2) - (yi/2))))
+                                {
+                                    printf("Swipe up/down.............\n");
+                                    if ( (cliState->down_x/2) > (xi/2)){
+                                    printf("Swipe up.............\n");
+                                    //sprintf(toX, "%d", (toXval+50));
+                                    sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,(cliState->down_x/2)+50,cliState->down_y/2);
+
+                                }
+                                if ( (cliState->down_x/2) < (xi/2)){
+                                    printf("Swipe down.............\n");
+                                    //sprintf(toX, "%d", (toXval-50));
+                                    sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,(cliState->down_x/2)-50,cliState->down_y/2);
+
+                                }
+                            }
+                               // sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,xi/2,yi/2);
                         #else
                                 sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,xi/2,yi/2);
                         #endif
@@ -1024,7 +1042,25 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                             if(UIorientation ==3)
                                 sprintf(fe,"S %d %d %d %d ",cliState->down_y,(Width-cliState->down_x),y,(Width-xi));
                             else
-                                sprintf(fe,"S %d %d %d %d ",cliState->down_x,cliState->down_y,xi,yi);
+                            {
+                                // if (abs(x - x1) > abs(y - y1)){
+                                if((abs((cliState->down_x)-(xi)) > abs((cliState->down_y) - (yi))))
+                                {
+                                    printf("Swipe up/down.............\n");
+                                    if ( (cliState->down_x) > (xi)){
+                                    printf("Swipe up.............\n");
+                                    //sprintf(toX, "%d", (toXval+50));
+                                    sprintf(fe,"S %d %d %d %d ",cliState->down_x,cliState->down_y,(cliState->down_x)+50,cliState->down_y);
+
+                                }
+                                if ( (cliState->down_x) < (xi)){
+                                    printf("Swipe down.............\n");
+                                    //sprintf(toX, "%d", (toXval-50));
+                                    sprintf(fe,"S %d %d %d %d ",cliState->down_x,cliState->down_y,(cliState->down_x)-50,cliState->down_y);
+
+                                }
+                            }
+                                //sprintf(fe,"S %d %d %d %d ",cliState->down_x,cliState->down_y,xi,yi);
                         #else
                                 sprintf(fe,"S %d %d %d %d ",cliState->down_x,cliState->down_y,xi,yi);
                         #endif
