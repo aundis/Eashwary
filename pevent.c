@@ -1053,11 +1053,13 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                                     sprintf(fe,"S %d %d %d %d ",cliState->down_x,cliState->down_y,(cliState->down_x)+50,cliState->down_y);
 
                                 }
-                                if ( (cliState->down_x) < (xi)){
+                                if ( (cliState->down_x) < (xi))
+                                {
                                     printf("Swipe down.............\n");
                                     //sprintf(toX, "%d", (toXval-50));
                                     sprintf(fe,"S %d %d %d %d ",cliState->down_x,cliState->down_y,(cliState->down_x)-50,cliState->down_y);
 
+                                }
                                 }
                             }
                                 //sprintf(fe,"S %d %d %d %d ",cliState->down_x,cliState->down_y,xi,yi);
@@ -2714,7 +2716,7 @@ void processEvents(char *msg, char *session)
         
 
        #if defined OS_14_1
-            printf("Inside 14.0 \n")
+            printf("Inside 14.0 \n");
             array = json_object_new_array();
             formJsonObject(jobj2,"action","press");
             json_object_object_add(jobj2,"options",jobj);   	            
