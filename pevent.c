@@ -977,6 +977,7 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                         #if defined  OS_14_1
                             printf(" for 14.1 version devices ********\n");
                             if(UIorientation ==3){
+                                printf(" Orientation \n");
                                 sprintf(fe,"S %d %d %d %d ",cliState->down_y/2,(Width/2)-cliState->down_x/2,yi/2,((Width/2)-xi/2));
                             }
                             else
@@ -1024,8 +1025,11 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                     {
                         #if defined  OS_14_1
                             printf(" for 14.1 version devices ********\n");
-                            if(UIorientation ==3)
+                            if(UIorientation ==3){
+                                printf(" Orientation \n");
                                 sprintf(fe,"S %d %d %d %d ",cliState->down_y/3,((Width/3)-cliState->down_x/3),yi/3,((Width/3)-xi/3));
+
+                            }
                             else
                             {
                                 printf("Inside Else Part \n");
@@ -1072,7 +1076,10 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                         #if defined  OS_14_1
                             printf(" for 14.1 version devices ********\n");
                             if(UIorientation ==3)
+                            {
+                                printf(" Orientation \n");
                                 sprintf(fe,"S %d %d %d %d ",cliState->down_y,(Width-cliState->down_x),y,(Width-xi));
+                            }
                             else
                             {
                                 printf("Inside Else Part \n");
