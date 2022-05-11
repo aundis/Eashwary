@@ -634,18 +634,21 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                     sprintf(su,"S %d %d %d %d ",xi/2,height/4,xi/2,yi/2);   
                     #if defined OS_14_1
                         sprintf(su,"S %d %d %d %d ",xi/2,yi/2,xi/2,(yi/2)+50); 
+                    #endif
                 }
                 else if (pserver_state->retina==2)
                 {
                     sprintf(su,"S %d %d %d %d ",xi/3,height/6,xi/3,yi/3);
                     #if defined OS_14_1
                         sprintf(su,"S %d %d %d %d ",xi/3,yi/3,xi/3,(yi/3)+50);
+                    #endif
                 }
                 else
                 {
                     sprintf(su,"S %d %d %d %d ",xi,height/2,xi,yi);
                     #if defined OS_14_1
                         sprintf(su,"S %d %d %d %d ",xi,yi,xi,yi+50);
+                    #endif
                 }
             }
             else if (UIorientation == 3)
