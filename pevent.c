@@ -632,14 +632,20 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                 if (pserver_state->retina==1)
                 {
                     sprintf(su,"S %d %d %d %d ",xi/2,height/4,xi/2,yi/2);   
+                    #if defined OS_14_1
+                        sprintf(su,"S %d %d %d %d ",xi/2,yi/2,xi/2,(yi/2)+50); 
                 }
                 else if (pserver_state->retina==2)
                 {
                     sprintf(su,"S %d %d %d %d ",xi/3,height/6,xi/3,yi/3);
+                    #if defined OS_14_1
+                        sprintf(su,"S %d %d %d %d ",xi/3,yi/3,xi/3,(yi/3)+50);
                 }
                 else
                 {
                     sprintf(su,"S %d %d %d %d ",xi,height/2,xi,yi);
+                    #if defined OS_14_1
+                        sprintf(su,"S %d %d %d %d ",xi,yi,xi,yi+50);
                 }
             }
             else if (UIorientation == 3)
@@ -647,6 +653,7 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                 #if defined OS_14_1
                 if (pserver_state->retina==1)
                 {
+                    //sprintf(su,"S %d %d %d %d",xi/2,width/4,xi/2,yi/2);
                     sprintf(su,"S %d %d %d %d",xi/2,width/4,xi/2,yi/2);
                 }
                 else if (pserver_state->retina==2)
@@ -1006,11 +1013,13 @@ void on_mouse_event(int buttonMask,int x,int y,rfbClientPtr cli)
                                     printf("Swipe left/right.............\n");
                                     if ((cliState->down_y/2) > (yi/2)){
                                         printf("Swipe right.............\n");
-                                        sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,(cliState->down_x/2)+60,cliState->down_y/2);
+                                        sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,(cliState->down_x/2)-60,cliState->down_y/2);
+
                                     }
                                     if ( (cliState->down_y/2) < (yi/2)){
                                     printf("Swipe left.............\n");
-                                    sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,(cliState->down_x/2)-60,cliState->down_y/2);
+                                    sprintf(fe,"S %d %d %d %d ",cliState->down_x/2,cliState->down_y/2,(cliState->down_x/2)+60,cliState->down_y/2);
+
                                 }
                             }
                             }
@@ -1737,7 +1746,7 @@ int main(int argc,char** argv)
                 if (pserver_state.helper_packagepath==NULL)
                 {
                     fprintf(stderr,"pcloudy helper missing ... \n");
-                    printf("Version 2.0 \n")
+                    printf("Version 2.0 \n");
                     //pserver_state.please_exit=1;
                 }
             }
@@ -2017,7 +2026,7 @@ int main(int argc,char** argv)
                     else if((pserver_state.input_enabled) && ((fe[0]=='h') || (fe[0]=='i')))
                     {
                         char *fe2 = (char*) malloc(4);
-                       /* if (fe2)
+                        if (fe2)
                         {
                             sprintf(fe2,"H \n");
 #ifndef XCUITEST
@@ -2027,7 +2036,7 @@ int main(int argc,char** argv)
 #endif
                             //processEvents(fe2,sessionId);
 
-                        }*/
+                        }
                         if (fe!=NULL) free(fe);
                     }
                     //Keyboard text integration..
