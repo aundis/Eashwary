@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<data>
-		/RXEz8myE3LjZHz5H3bZqkIwzVM=
+		1eqhKY5Cl7abl8svoNidFNc3xFM=
 		</data>
 		<key>Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer</key>
 		<data>
-		BjymEwceSkx2QYpQJZr248MVmVo=
+		zCqLwUbVqQhDGy5ZbVPxGjsoH4w=
 		</data>
 		<key>Frameworks/RoutingHTTPServer.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Frameworks/YYCache.framework/YYCache</key>
 		<data>
-		IA/3+8BMnsYIhgvl++3g2vm3lpg=
+		d3dGEQsuuDF28s7If1+1eRuX9Eg=
 		</data>
 		<key>Frameworks/YYCache.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -639,11 +639,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/RXEz8myE3LjZHz5H3bZqkIwzVM=
+			1eqhKY5Cl7abl8svoNidFNc3xFM=
 			</data>
 			<key>hash2</key>
 			<data>
-			53s6XhgGEhLnXgmKctYjBFxODE2bXKRs6LtRI29GlYg=
+			gJxFHk9lcdodG2xUQwZg/8a9MudFz0mUAuuxbSn/+cE=
 			</data>
 		</dict>
 		<key>Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
@@ -683,11 +683,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BjymEwceSkx2QYpQJZr248MVmVo=
+			zCqLwUbVqQhDGy5ZbVPxGjsoH4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			1xaOc1Y4znF91YT4iS33c/iNHbYBKfxu71Q1HTTjNnU=
+			Qdu+NDgaVVCwRYUEQmVcNU2yhajvMuH3xRsHghaQqUQ=
 			</data>
 		</dict>
 		<key>Frameworks/RoutingHTTPServer.framework/_CodeSignature/CodeResources</key>
@@ -716,11 +716,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IA/3+8BMnsYIhgvl++3g2vm3lpg=
+			d3dGEQsuuDF28s7If1+1eRuX9Eg=
 			</data>
 			<key>hash2</key>
 			<data>
-			9tQL07jY9phT0qDAPlaYbFhob5O5UuqJ2eENPVaGw04=
+			z1YJhHAye5bSrDhFlXmK0ipXqkPdCSNZ4IvvExFcCwU=
 			</data>
 		</dict>
 		<key>Frameworks/YYCache.framework/_CodeSignature/CodeResources</key>
