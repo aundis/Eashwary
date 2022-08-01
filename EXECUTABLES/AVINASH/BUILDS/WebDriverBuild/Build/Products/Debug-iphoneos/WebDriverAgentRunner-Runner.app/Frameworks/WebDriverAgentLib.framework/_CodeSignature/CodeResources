@@ -6,11 +6,15 @@
 	<dict>
 		<key>Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<data>
-		Qajf4ULiOtDzpXlowCHo5WnbAJM=
+		X6xxXhpJmN0h2o2KHZ6I7te5hXk=
 		</data>
 		<key>Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
 		<data>
 		vhPG+RalCO/vFSFMC77VXLOHcAo=
+		</data>
+		<key>Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
+		<data>
+		dqWrRxOCyABfEdWkbNVxLRYIAgU=
 		</data>
 		<key>Frameworks/RoutingHTTPServer.framework/Info.plist</key>
 		<data>
@@ -18,7 +22,11 @@
 		</data>
 		<key>Frameworks/RoutingHTTPServer.framework/RoutingHTTPServer</key>
 		<data>
-		Z8yt3eyvIxB67z0ktRLkco/40OY=
+		g30JBakNXVaIGV/wUVKMFEJxHV0=
+		</data>
+		<key>Frameworks/RoutingHTTPServer.framework/_CodeSignature/CodeResources</key>
+		<data>
+		6BpGRSBiPAlWoyd0UPMbAQ2q7o0=
 		</data>
 		<key>Frameworks/YYCache.framework/Info.plist</key>
 		<data>
@@ -26,7 +34,11 @@
 		</data>
 		<key>Frameworks/YYCache.framework/YYCache</key>
 		<data>
-		+TD+Hxrb0rat/Bm11rNcwRUGj08=
+		42yy6nDhr4zsd2+leoNIZyjEl2g=
+		</data>
+		<key>Frameworks/YYCache.framework/_CodeSignature/CodeResources</key>
+		<data>
+		AkdG0EgAUSt8aZ/YyWnHOn0T3ps=
 		</data>
 		<key>Headers/CDStructures.h</key>
 		<data>
@@ -410,7 +422,7 @@
 		</data>
 		<key>Headers/XCTestManager_ManagerInterface-Protocol.h</key>
 		<data>
-		d4b/+gj/PY32qe78lEcYj50zYZw=
+		he914+0z6HLvht6/Ow6vYc79OPw=
 		</data>
 		<key>Headers/XCTestManager_TestsInterface-Protocol.h</key>
 		<data>
@@ -619,11 +631,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qajf4ULiOtDzpXlowCHo5WnbAJM=
+			X6xxXhpJmN0h2o2KHZ6I7te5hXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			HdrOBgJ/3WDbnvNfokMxQw6gHHxwEJqRUX5cReFMtp0=
+			elsi4lR2bEge8oywl7o1ybLiF0RllsPow6U04+yaR7M=
 			</data>
 		</dict>
 		<key>Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
@@ -635,6 +647,17 @@
 			<key>hash2</key>
 			<data>
 			dKQfpd0Z8QlSGcEXPn0/oI9LoL96CqfggWZaFEFeL7s=
+			</data>
+		</dict>
+		<key>Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dqWrRxOCyABfEdWkbNVxLRYIAgU=
+			</data>
+			<key>hash2</key>
+			<data>
+			awT9Y5xUFlwba18Cbb+DeIXmwlPwt1eNru1aRLsjFhs=
 			</data>
 		</dict>
 		<key>Frameworks/RoutingHTTPServer.framework/Info.plist</key>
@@ -652,11 +675,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z8yt3eyvIxB67z0ktRLkco/40OY=
+			g30JBakNXVaIGV/wUVKMFEJxHV0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mwJkgZ4KfJgKMqY1uEBmJJOnUG2ws4B/5Bj592W+koA=
+			imMx12CACzBy1Bq3Wf7PwjhbTudUcLXezaiGmwn4KU0=
+			</data>
+		</dict>
+		<key>Frameworks/RoutingHTTPServer.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6BpGRSBiPAlWoyd0UPMbAQ2q7o0=
+			</data>
+			<key>hash2</key>
+			<data>
+			34zM1WTWK+yH09bO7BhcD1MRJVj/iyLfa7VXD+6cAMM=
 			</data>
 		</dict>
 		<key>Frameworks/YYCache.framework/Info.plist</key>
@@ -674,11 +708,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+TD+Hxrb0rat/Bm11rNcwRUGj08=
+			42yy6nDhr4zsd2+leoNIZyjEl2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			4HvswazMko9F3YcgaM+43M05NZcU9P21jLKMYm8TmQM=
+			hAcgwFp8NvbS76GSCHYDHEbby7HeMGTXDuRCJYZoUeg=
+			</data>
+		</dict>
+		<key>Frameworks/YYCache.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AkdG0EgAUSt8aZ/YyWnHOn0T3ps=
+			</data>
+			<key>hash2</key>
+			<data>
+			p3729Vbui3u+fVJ6NrULTU1NIIr3KgOOytveYw0LFV0=
 			</data>
 		</dict>
 		<key>Headers/CDStructures.h</key>
@@ -1730,11 +1775,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d4b/+gj/PY32qe78lEcYj50zYZw=
+			he914+0z6HLvht6/Ow6vYc79OPw=
 			</data>
 			<key>hash2</key>
 			<data>
-			lgvZcoo9+rvkjv1q8FEEvstQADt+VzfPFPpfRUMplE4=
+			RMlTp1Ij/dlgZz9wn8Ju+8UYw2YeU4CNrtWqoaaqbAc=
 			</data>
 		</dict>
 		<key>Headers/XCTestManager_TestsInterface-Protocol.h</key>
