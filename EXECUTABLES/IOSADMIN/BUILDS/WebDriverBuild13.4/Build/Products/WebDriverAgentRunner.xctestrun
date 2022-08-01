@@ -2,15 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>WebDriverAgentRunner-Runner</key>
+	<key>WebDriverAgentRunner</key>
 	<dict>
 		<key>BlueprintName</key>
-		<string>WebDriverAgentRunner-Runner</string>
-		<key>BlueprintProviderName</key>
-		<string>WebDriverAgent</string>
+		<string>WebDriverAgentRunner</string>
 		<key>BundleIdentifiersForCrashReportEmphasis</key>
 		<array>
-			<string>com.facebook.wda.lib</string>
+			<string>com.pcloudywda.WebDriverAgent</string>
 			<string>com.pcloudywda.WebDriverAgentRunner</string>
 		</array>
 		<key>CommandLineArguments</key>
@@ -20,7 +18,7 @@
 		<key>DependentProductPaths</key>
 		<array>
 			<string>__TESTROOT__/Debug-iphoneos/WebDriverAgentLib.framework</string>
-			<string>__TESTROOT__/Debug-iphoneos/WebDriverAgentRunner-Runner-Runner.app/PlugIns/WebDriverAgentRunner-Runner.xctest</string>
+			<string>__TESTROOT__/Debug-iphoneos/WebDriverAgentRunner-Runner.app/PlugIns/WebDriverAgentRunner.xctest</string>
 		</array>
 		<key>EnvironmentVariables</key>
 		<dict>
@@ -42,17 +40,17 @@
 		<key>IsXCTRunnerHostedTestBundle</key>
 		<true/>
 		<key>ProductModuleName</key>
-		<string>WebDriverAgentRunner_Runner</string>
+		<string>WebDriverAgentRunner</string>
 		<key>RunOrder</key>
 		<integer>0</integer>
 		<key>SystemAttachmentLifetime</key>
 		<string>keepNever</string>
 		<key>TestBundlePath</key>
-		<string>__TESTHOST__/PlugIns/WebDriverAgentRunner-Runner.xctest</string>
+		<string>__TESTHOST__/PlugIns/WebDriverAgentRunner.xctest</string>
 		<key>TestHostBundleIdentifier</key>
 		<string>com.pcloudywda.WebDriverAgentRunner.xctrunner</string>
 		<key>TestHostPath</key>
-		<string>__TESTROOT__/Debug-iphoneos/WebDriverAgentRunner-Runner-Runner.app</string>
+		<string>__TESTROOT__/Debug-iphoneos/WebDriverAgentRunner-Runner.app</string>
 		<key>TestLanguage</key>
 		<string></string>
 		<key>TestRegion</key>
