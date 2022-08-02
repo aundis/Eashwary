@@ -14,7 +14,7 @@
 		</data>
 		<key>XPCServices/LogArchiveCollector.xpc/LogArchiveCollector</key>
 		<data>
-		Xv9vmlW1CAipQphxXzKF4kRI598=
+		Tq/aRBUxshukW3t5Aig146jOxVQ=
 		</data>
 		<key>XPCServices/LogArchiveCollector.xpc/_CodeSignature/CodeResources</key>
 		<data>
@@ -46,11 +46,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xv9vmlW1CAipQphxXzKF4kRI598=
+			Tq/aRBUxshukW3t5Aig146jOxVQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Yj3pJzwekdq03X/rx699f3KhMDU6yaH0ARMImrTWdBA=
+			iDWRBKISM9a7zD3uAf8BrtUGNuOvnc3R1oiNifXx7LM=
 			</data>
 		</dict>
 		<key>XPCServices/LogArchiveCollector.xpc/_CodeSignature/CodeResources</key>
