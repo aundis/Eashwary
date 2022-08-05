@@ -1,0 +1,20 @@
+user make to build generic variant
+
+Following OS versions need specific build
+
+8.3
+----
+
+1. clean libimobiledevice
+	make clean
+2. build libimobiledevice with 8.3 flag
+	make CPPFLAGS=-DIOS_8_3
+3. clean pserver
+	make clean
+4. build pserver with 8.3 flag
+	make CPPFLAGS=-DIOS_8_3
+5. build pserver for ios 11
+        make CPPFLAGS=-DIOS_10_0 CPPFLAGS+=-DXCUITEST CPPFLAGS+=-DKEYQUEUE CPPFLAGS+=-DOS_11_0
+
+To Build all binaries run build.sh
+copy all binaries generated to /usr/local/bin

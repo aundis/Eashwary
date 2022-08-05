@@ -1,0 +1,4 @@
+-----------------------
+ios-Device-Set-location
+-----------------------
+Usage : idevicelocation -u "udid of device" "Latitude" "Longitude"
