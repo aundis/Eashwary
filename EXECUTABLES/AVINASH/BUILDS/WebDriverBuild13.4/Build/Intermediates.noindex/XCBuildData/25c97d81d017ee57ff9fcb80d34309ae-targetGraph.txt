@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+WebDriverAgentLib in WebDriverAgent, no dependencies
+WebDriverAgentRunner in WebDriverAgent, depends on:
+WebDriverAgentLib in WebDriverAgent (explicit)

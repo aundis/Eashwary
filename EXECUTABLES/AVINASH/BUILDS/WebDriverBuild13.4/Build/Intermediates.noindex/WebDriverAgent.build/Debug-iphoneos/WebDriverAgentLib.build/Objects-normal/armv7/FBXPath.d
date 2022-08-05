@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Utilities/FBXPath.m \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Utilities/FBXPath.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/kcdata.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/uuid.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/netinet6.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/machine.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/device.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/mach_debug.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/mach_machine.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/mach.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/bank.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/darwin_posix_sys_types.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/netinet.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/net.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/darwin_cdefs.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/mach-o/dyld.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/libxml2/libxml/module.modulemap \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Routing/FBElement.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/PrivateHeaders/XCTest/XCElementSnapshot.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/PrivateHeaders/XCTest/CDStructures.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Utilities/FBConfiguration.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/PrivateHeaders/AccessibilityUtilities/AXSettings.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/PrivateHeaders/UIKitCore/UIKeyboardImpl.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/PrivateHeaders/TextInput/TIPreferencesController.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Routing/FBExceptions.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Utilities/FBLogger.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Utilities/FBXMLGenerationOptions.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Categories/NSString+FBXMLSafeString.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Categories/XCElementSnapshot+FBHelpers.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/PrivateHeaders/XCTest/XCUIElement.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Categories/XCUIElement+FBCaching.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Categories/XCUIElement+FBUtilities.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Categories/XCUIElement+FBWebDriverAttributes.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Utilities/XCTestPrivateSymbols.h

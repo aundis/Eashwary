@@ -1,0 +1,65 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "1c9600adccc55a33b03545a6d8778524110a8e8b613739846fd7e22a0868102b"
+    }
+  ],
+  "containerPath" : "/Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgent.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.2",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/eashwary/ios/WebDriverAgent-csdwmqqdvcsqyjhayfuncroevzub/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/eashwary/ios/WebDriverAgent-csdwmqqdvcsqyjhayfuncroevzub/Build/Products",
+      "derivedDataPath" : "/Users/eashwary/ios",
+      "indexDataStoreFolderPath" : "/Users/eashwary/ios/WebDriverAgent-csdwmqqdvcsqyjhayfuncroevzub/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/eashwary/ios/WebDriverAgent-csdwmqqdvcsqyjhayfuncroevzub/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/eashwary/ios/WebDriverAgent-csdwmqqdvcsqyjhayfuncroevzub/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "test",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

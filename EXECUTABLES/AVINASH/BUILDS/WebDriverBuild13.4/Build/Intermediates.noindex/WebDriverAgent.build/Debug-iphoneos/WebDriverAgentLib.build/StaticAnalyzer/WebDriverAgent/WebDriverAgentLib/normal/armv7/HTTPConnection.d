@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Vendor/CocoaHTTPServer/HTTPConnection.m \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Vendor/CocoaHTTPServer/HTTPServer.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/kcdata.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/uuid.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/netinet6.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/machine.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/device.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/mach_debug.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/mach_machine.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/mach.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/bank.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/darwin_posix_sys_types.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/netinet.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/net.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/darwin_cdefs.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/mach-o/dyld.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/libxml2/libxml/module.modulemap \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Vendor/CocoaHTTPServer/HTTPConnection.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Vendor/CocoaHTTPServer/HTTPMessage.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Vendor/CocoaHTTPServer/HTTPResponse.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Vendor/CocoaHTTPServer/Categories/DDNumber.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Vendor/CocoaHTTPServer/Categories/DDRange.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Vendor/CocoaHTTPServer/HTTPLogging.h \
+  /Users/eashwary/GitHub/pCloudy-WebdriverAgent/WebDriverAgent-4.0.0/WebDriverAgentLib/Vendor/CocoaAsyncSocket/GCDAsyncSocket.h
