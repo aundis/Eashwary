@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket</key>
 		<data>
-		lc6gGVoB+JVQWRYjeQTrUYGo2Y8=
+		YNd+jtEf4WNPzdiid5F6mdGzhsc=
 		</data>
 		<key>Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/YYCache.framework/YYCache</key>
 		<data>
-		z6TwRZEdEEcYkHcFLuabQQbh9DY=
+		1kcibB3zBmPtFZeLNr7mAs3UA3s=
 		</data>
 		<key>Frameworks/YYCache.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -623,11 +623,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lc6gGVoB+JVQWRYjeQTrUYGo2Y8=
+			YNd+jtEf4WNPzdiid5F6mdGzhsc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VQ01roUXt3Vd3+MZ/mP6GUKmRzZTShNldEJ+xv2DE14=
+			hl69Ax60qCoHg3v+dbMlgo+apqsQdyanyAIG8lmRmII=
 			</data>
 		</dict>
 		<key>Frameworks/CocoaAsyncSocket.framework/Info.plist</key>
@@ -667,11 +667,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z6TwRZEdEEcYkHcFLuabQQbh9DY=
+			1kcibB3zBmPtFZeLNr7mAs3UA3s=
 			</data>
 			<key>hash2</key>
 			<data>
-			dMOZvd2sTOJxF+jlxlAaY4nRosmTkKU6H6I38LhtF3Y=
+			GV/DV/Vqeuu8HvBn91daEYouP/2+7mWp00jOD0nhWaI=
 			</data>
 		</dict>
 		<key>Frameworks/YYCache.framework/_CodeSignature/CodeResources</key>
