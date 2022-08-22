@@ -1,0 +1,27 @@
+Steps for libimobile library install:
+
+- brew install usbmuxd swig pkg-config
+- Copy latest libimobile-master.zip
+- unzip and run  ./autogen.sh
+- Go to directory src, tools and common one by one and repeat the following steps in each of these directory.
+ 1. Open Makefile.am
+ 2. Type -I/usr/local/opt/openssl/include/ at the end to the line starts with AM_CPPFLAGS=
+ 3. Type -I/usr/local/opt/openssl/include/ at the end to the line starts with AM_CFLAGS=
+ 4. Type -L/usr/local/opt/openssl/lib/ at the end to the line starts with AM_LDFLAGS=
+
+After this idevicescreenshot should work.
+
+Steps for vnc build:
+- brew install libgcrypt
+- Go to directory libvncserver, libvncclient, cleint_examples and test one by one and repeat the following steps in each of these directory.
+ 1. Open Makefile.am
+ 3. Type -I/usr/local/opt/openssl/include/ at the end to the line starts with AM_CFLAGS=
+
+
+Steps for piserver build:
+- brew install gnutls
+
+
+Notes
+
+screenshotr_take_screenshot command continue
