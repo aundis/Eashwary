@@ -648,15 +648,17 @@ void processEvents(char *msg, char *session)
 
 	            formJsonObject(jobj1,"action","press");
        	        json_object_object_add(jobj1,"options",jobj);
+                json_object_array_add(array,jobj1);
+
 
                 formJsonObject(jobj2,"action","wait");
                 json_object_object_add(jobj2,"options",jobj3);
                 formJsonObject(jobj3,"ms","10");
-                formJsonObject(jobj4,"action","release");
-
-           	    json_object_array_add(array,jobj1);
                 json_object_array_add(array,jobj2);
+
+                formJsonObject(jobj4,"action","release");
                 json_object_array_add(array,jobj4);
+                
                 json_object_array_add(array,jobj);
 
 
