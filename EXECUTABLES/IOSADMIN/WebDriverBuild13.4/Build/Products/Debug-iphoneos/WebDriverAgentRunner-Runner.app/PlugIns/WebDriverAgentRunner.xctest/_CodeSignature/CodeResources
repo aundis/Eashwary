@@ -6,54 +6,42 @@
 	<dict>
 		<key>Frameworks/WebDriverAgentLib.framework/Info.plist</key>
 		<data>
-		PJTIxbedaEFf5QQciKG5ExUDY9Q=
+		fXD4uZGLDwBa6h+FmXB6ZDWsYU0=
 		</data>
 		<key>Frameworks/WebDriverAgentLib.framework/WebDriverAgentLib</key>
 		<data>
-		a0X+2dj1Su9mSgw2awtpz1aOlug=
+		QsDuwTQubaep/m9I/T3GE/q+Cv4=
 		</data>
 		<key>Frameworks/WebDriverAgentLib.framework/_CodeSignature/CodeResources</key>
 		<data>
-		mcj03XWPRrcgoRBPdOe/uY8gMNw=
+		iOJWxS8gIpY50xCvW5GCw3RBqcE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		B08snX5BOI9tZ4o1Q5xuH6LTPQA=
+		ZN15DfXYpKtY61ZgNhrz43Wer0o=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Frameworks/WebDriverAgentLib.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PJTIxbedaEFf5QQciKG5ExUDY9Q=
-			</data>
 			<key>hash2</key>
 			<data>
-			QLQ9NaRVX13Sl4eKZaxc0B7RvJ399K1jFjGQti9+Sjg=
+			Gi25Ds4JQvmOCQ4l4SzXHTauwGhBevG7yno5IxSebVg=
 			</data>
 		</dict>
 		<key>Frameworks/WebDriverAgentLib.framework/WebDriverAgentLib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			a0X+2dj1Su9mSgw2awtpz1aOlug=
-			</data>
 			<key>hash2</key>
 			<data>
-			8q6M2xiNR3LqbHC1kJWvIY5gvJeoAiCnFgjyjCT5E94=
+			9c2fN8QEPhyBDGhdz8R9mBcrkauNjNgNX0dLAbXkbP0=
 			</data>
 		</dict>
 		<key>Frameworks/WebDriverAgentLib.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mcj03XWPRrcgoRBPdOe/uY8gMNw=
-			</data>
 			<key>hash2</key>
 			<data>
-			v1JWifXw3e3jo3juFLiXHOx3ssW0j7ey6uQuMrLw0y8=
+			Sb0yUj7l/Lvhfti/bTrVs4upqlhtZJDnaxi2oVxrOCw=
 			</data>
 		</dict>
 	</dict>
