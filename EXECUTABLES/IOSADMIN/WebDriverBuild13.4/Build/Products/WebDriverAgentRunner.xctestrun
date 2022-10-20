@@ -8,8 +8,8 @@
 		<string>WebDriverAgentRunner</string>
 		<key>BundleIdentifiersForCrashReportEmphasis</key>
 		<array>
-			<string>com.facebook.wda.lib</string>
-			<string>com.facebook.wda.runner</string>
+			<string>com.pcloudywda.WebDriverAgent</string>
+			<string>com.pcloudywda.WebDriverAgentRunner</string>
 		</array>
 		<key>CommandLineArguments</key>
 		<array/>
@@ -48,7 +48,7 @@
 		<key>TestBundlePath</key>
 		<string>__TESTHOST__/PlugIns/WebDriverAgentRunner.xctest</string>
 		<key>TestHostBundleIdentifier</key>
-		<string>com.facebook.WebDriverAgentRunner.xctrunner</string>
+		<string>com.pcloudywda.WebDriverAgentRunner.xctrunner</string>
 		<key>TestHostPath</key>
 		<string>__TESTROOT__/Debug-iphoneos/WebDriverAgentRunner-Runner.app</string>
 		<key>TestLanguage</key>
